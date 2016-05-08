@@ -1,0 +1,23 @@
+{
+  "name": "palmetto-power.com",
+  "version": "1.0.0",
+  "description": "palmetto-power.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "env $(cat .env | xargs) node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palmetto-power/palmetto-power.com.git"
+  },
+  "author": "Brad Dunbar <dunbarb2@gmail.com> (http://braddunbar.net/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palmetto-power/palmetto-power.com/issues"
+  },
+  "homepage": "https://github.com/palmetto-power/palmetto-power.com#readme",
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.2",
+    "ozymandias": "github:braddunbar/ozymandias"
+  }
+}
