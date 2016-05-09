@@ -8,6 +8,7 @@ const app = module.exports = ozymandias()
 
 // Routes
 app.get('/', (req, res) => res.render('index'))
+app.use('/.well-known/acme-challenge', require('./routes/acme'))
 
 // 404
 app.get('*', (req, res) => res.status(404).render('404'))
